@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a single-file HTML page presenting three unlisted YouTube videos
 for the University of Sydney postdoc application (position 0158347).
-Usage:  python make_application_page.py     ->  writes app.html
+Usage:  python make_application_page.py     ->  writes index.html
 No third-party packages needed."""
 import html
 import re
@@ -13,7 +13,7 @@ POSITION = "Postdoctoral Research Associate in Carbon-Neutral Demand Forecasting
 EMPLOYER = "The University of Sydney"
 POSITION_ID = "0158347"
 CONTACT = "moethiri.zun97@gmail.com"         
-OUTPUT = "app.html"
+OUTPUT = "index.html"
 
 EMBED = True
 
